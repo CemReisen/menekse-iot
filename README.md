@@ -25,3 +25,28 @@ Projeyi kendi bilgisayarınızda çalıştırmak için:
 1. **Projeyi Klonlayın:**
    ```bash
    git clone [https://github.com/CemReisen/menekse-iot.git](https://github.com/CemReisen/menekse-iot.git)
+
+2. Arka Uç (Backend) Bağımlılıklarını Kurun ve Başlatın
+   cd backend
+   npm install
+   npm run dev
+(Not: Sistemin veritabanına bağlanabilmesi için backend dizininde geçerli bir MongoDB URI içeren .env dosyası tanımlanmalıdır.)
+
+3. Mobil Uygulamayı (Flutter) Çalıştırmadan Önce Bağımlılıkları Çekin
+   cd ../menekse_app
+   flutter pub get
+   flutter run
+
+Yol Haritası (Roadmap)
+   [ ] Ultrasonik sensör (HC-SR04) entegrasyonu ile su haznesi seviye kontrolünün yapılması.
+   [ ] Mobil uygulama üzerinden manuel sulama (Override) komutu gönderimi için çift yönlü iletişim mimarisi.
+   [ ] Geçmiş sensör verilerinin grafiksel (Chart/Graph) analizi ve raporlama sayfası.
+
+Geliştirici: Ersin Cem Kök
+
+
+
+
+
+
+
