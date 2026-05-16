@@ -1,0 +1,14 @@
+# Kütüphaneler (Github'a atılmaz, projeyi çeken 'npm install' der kendi kurar)
+node_modules/
+
+# Çevresel Değişkenler ve Şifreler (Asla ama asla paylaşılmaz!)
+.env
+
+# NPM Log dosyaları (Gereksiz kalabalık)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# İşletim sistemi kalıntıları (Mac veya Windows'un kendi oluşturduğu gizli çöpler)
+.DS_Store
+Thumbs.db
